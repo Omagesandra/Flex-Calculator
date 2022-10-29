@@ -1,0 +1,45 @@
+.calc-container {
+    background-color: lightgrey;
+    width: max-content;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid red;
+}
+.calc-display {
+    width: 100%;
+    background-color: darkgrey;
+    height: 50px;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+.calc-buttons {
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 300px;
+}
+button {
+    flex: 1 25%;
+    border-radius: 4px;
+    padding: 10px;
+    width:30px;
+}
+.btn-number{
+    background-color: grey;
+}
+.btn-operator {
+    background-color: orange;
+
+}
+.btn-equal {
+    background-color: green;
+}
+.btn-clear {
+    background-color: red;
+}
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
